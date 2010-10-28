@@ -1,0 +1,17 @@
+application: glowingchrome
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+    - url: /appcache.manifest
+      static_files: static/appcache.manifest
+      mime_type: text/cache-manifest
+      upload: static/appcache.manifest
+      
+    - url: (.*)/
+      static_files: static\1/index.html
+      upload: static/index.html
+      
+    - url: /
+      static_dir: static

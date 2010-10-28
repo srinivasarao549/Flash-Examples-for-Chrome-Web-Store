@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Chrome is Glowing</title>
+		<script type="text/javascript" src="/swfobject.js"></script>
+		
+		<script type="text/javascript">
+		swfobject.registerObject("game", "9.0.115", "/expressInstall.swf");
+		</script>
+		
+		<style>
+		html {
+			height: 100%;
+			background: black url(pattern8-pattern70c.png);
+		}
+		body {
+		  display: -webkit-box;
+		  -webkit-box-orient: horizontal;
+		  -webkit-box-pack: center;
+		  -webkit-box-align: center;
+
+		  display: -moz-box;
+		  -moz-box-orient: horizontal;
+		  -moz-box-pack: center;
+		  -moz-box-align: center;
+
+		  display: box;
+		  box-orient: horizontal;
+		  box-pack: center;
+		  box-align: center;
+		
+		  height: 100%;
+		  overflow-y: hidden;
+		}
+		</style>
+	</head>
+	<body>
+		<object id="game" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1024" height="768">
+	        <param name="movie" value="/chromelogo-pulse.swf" />
+	        <!--[if !IE]>-->
+	        <object type="application/x-shockwave-flash" data="/chromelogo-pulse.swf" width="1024" height="728">
+	        <!--<![endif]-->
+	          <p>Alternative content</p>
+	        <!--[if !IE]>-->
+	        </object>
+	        <!--<![endif]-->
+      	</object>
+	</body>
+</html>

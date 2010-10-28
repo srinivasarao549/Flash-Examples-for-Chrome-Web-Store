@@ -1,0 +1,14 @@
+{
+  "name": "Chrome is Glowing",
+  "description": "Try to take your eyes off of the glowing Chrome orb.",
+  "version": "1",
+  "app": {
+    "launch": {
+      "local_path": "index.html"
+    }
+  },
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  }
+}

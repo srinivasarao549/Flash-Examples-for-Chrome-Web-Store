@@ -1,0 +1,19 @@
+{
+  "name": "Chrome is Glowing",
+  "description": "Try to take your eyes off of the glowing Chrome orb.",
+  "version": "1",
+  "app": {
+    "urls": [
+      "http://glowingchrome.appspot.com/"
+    ],
+    "launch": {
+      "web_url": "http://glowingchrome.appspot.com/"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage"
+  ]
+}
