@@ -1,0 +1,20 @@
+Examples for publishing Flash into the Chrome Web Store.
+
+hosted:
+
+How to publish a Flash app running off of a web server.  This is the
+traditional model.
+
+This example is using Google App Engine.
+
+packaged:
+
+How to publish a Flash app running as a self contained "package",
+fully downloaded and executed from the user's Chrome browser. No
+web server required.  This is like a "download and install"
+experience.
+
+How to pick?
+
+A packaged web app has a limit of 10MB.  More discussion can be
+found here: http://code.google.com/chrome/webstore/articles/apps_vs_extensions.html
